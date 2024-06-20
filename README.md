@@ -1,2 +1,2 @@
 # ASeer
-Official implementation of ASeer
+This project will be available soon.
