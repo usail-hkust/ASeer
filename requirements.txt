@@ -1,0 +1,6 @@
+torch==1.12.1
+dgl==0.5.3
+numpy==1.20.1
+pandas==1.2.4
+pickle
+glob
