@@ -42,30 +42,14 @@ Take dataset ZHUZHOU as an example.
 You need to first execute the below command to generate the asynchronously diffused message edges for the dataset:  
 
 ```shell
-python lib/message_edges_gen.py zhuzhou
+python ./lib/message_edges_gen.py zhuzhou
 ```
 
-To replicate the experimental results presented in the paper, please execute the below command:
+To replicate the experimental results presented in the paper, please execute the below script:
 
 ```shell
 sh ./scripts/zhuzhou.sh
 ```
-
-Example:
-
-```shell
-python train.py \
-    --cityname {dataset_of_city} \
-    --gpu {used_gpu}
-```
-
-```shell
-python test.py \
-    --cityname {dataset_of_city} \
-    --gpu {used_gpu}
-```
-
-- `cityname`: the dataset name, select from `[zhuzhou, baoding]`.
 
 ## Citation
 
@@ -75,7 +59,6 @@ author = {Zhang, Weijia and Zhang, Le and Han, Jindong and Liu, Hao and Fu, Yanj
 title = {Irregular Traffic Time Series Forecasting Based on Asynchronous Spatio-Temporal Graph Convolutional Networks},
 year = {2024},
 booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-pages = {4302–4313},
-keywords = {convolutional networks, irregular time series analysis, spatio-temporal modeling, traffic forecasting}
+pages = {4302–4313}
 }
 ```
