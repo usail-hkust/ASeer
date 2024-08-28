@@ -6,11 +6,12 @@ We meticulously collect and develop two novel real-world datasets of irregular t
 
 Datasets are available at the provided [dataset link](https://drive.google.com/drive/folders/1BPo5GczJd6OENZp-VgFVQ-Oo-wqC9GPT?usp=drive_link), where the files for each dataset represents:
 
-*dataset_onhour.pkl*: (x, y, mask_x, mask_y) <br>
+*dataset_onhour.pkl*: (x, y, mask_x, mask_y) 
 - x fields: end time of cycle, cycle length, traffic flow, unit traffic flow <br>
 - y fields: begin time of cycle, cycle length, traffic flow, unit traffic flow <br>
 - mask_x: mask terms of x <br>
 - mask_y: mask terms of y <br>
+
 *distance_geo.npy*: pair-wise geographical distance between sensors. <br>
 *reachability.npy*: pair-wise lane-level road network reachability between sensors. 
 
